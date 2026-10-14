@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  --background: #07111F;
+  --foreground: #F3F4F6;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Custom Mesh Grid Background for Infrastructure Vibe */
+.bg-graph-mesh {
+  background-image: radial-gradient(rgba(0, 212, 255, 0.15) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
