@@ -17,3 +17,48 @@ body {
   background-image: radial-gradient(rgba(0, 212, 255, 0.15) 1px, transparent 1px);
   background-size: 32px 32px;
 }
+
+/* Glassmorphic Enterprise Card System */
+.glass-panel {
+  background: rgba(11, 25, 43, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-panel-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glass-panel-hover:hover {
+  border-color: rgba(0, 212, 255, 0.4);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.15);
+}
+
+/* Glowing Neon Cyan Borders & Accents */
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(0, 212, 255, 0.35);
+}
+
+.glow-red {
+  box-shadow: 0 0 15px rgba(239, 68, 68, 0.4);
+}
+
+/* Custom Scrollbar for Dashboard Sidebar & Feeds */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #07111F;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00D4FF;
+}
